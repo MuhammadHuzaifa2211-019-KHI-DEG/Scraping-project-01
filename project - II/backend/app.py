@@ -25,7 +25,6 @@ index = 0
 # rows = [["Name", "Age", "City"]]
 
 def generate_and_upload_csv():
-    get_json_file()
     scrape_jobs()
     global index, rows
 
